@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@200;400&display=swap');
+
+:root{ 
+    --color-1:#250ff3 ;
+    --color-2:#1c0bd5 ;
+    --color-3:#1308b7 ;
+    --color-4:#090499;
+    --color-5:#00007b ;
+}
+html{
+    scroll-behavior:smooth ;
+}
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-family: 'Mukta', sans-serif;
+
+}
+.cabecalho-area{
+    background-color: #250ff3;
+}
+#cabecalho, a{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: auto 20px;
+    color: #fff;
+    font-size: 25px;
+    text-decoration: none;
+
+}
+#cabecalho span{
+    color: #00007b;
+}
+
+.items-menu, a{
+    display: inline-block;
+    margin-inline: 5px;
+    transition: 0.2s;
+}
+.items-menu a:hover{
+    background-color: #fff;
+    color: #00007b;
+    scale: 1;
+    border-radius: 20px;
+    padding: 5px;
+}
+
+.container-divs{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0px 10px 20px #00000035;
+}
+
+#container-left{
+    width: 700px;
+    margin: 10px 20px;
+    text-align: justify;
+}
+.text{
+    padding-top: 10px;
+
+}
+
+#container-right{
+    width: 500px;
+    margin: 10px 20px;
+    transition: 0.7s;
+
+}
+#container-right img{
+    width: 600px;
+}
+#container-right:hover{
+    transform:translateY(-40px);
+}
+.button{
+    border: none;
+    background-color: #250ff3;
+    color: #fff;
+    padding: 8px;
+    font-size: 1.1rem;
+    border-radius: 20px;
+    margin-top: 10px;
+    transition: 0.5s;
+}
+@media (max-width:785) {
+    .navigation{
+        
+    }
+}
